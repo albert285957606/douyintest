@@ -1,0 +1,125 @@
+{
+  "comment": 0,
+  "log_pb": {
+    "impr_id": "201912311455340101290331692A229E34"
+  },
+  "digg_push": 1,
+  "comment_offensive_filter": 0,
+  "extra": {
+    "logid": "201912311455340101290331692A229E34",
+    "now": 1577775335015,
+    "fatal_item_ids": []
+  },
+  "status_code": 0,
+  "story_interaction_push": 1,
+  "minor_control_type": 1,
+  "enable_pre_upload": -1,
+  "follow_new_video_push": 1,
+  "story_view_permission": 0,
+  "mention_push": 1,
+  "comment_push": 1,
+  "recommend_video_push": 1,
+  "story_reply_permission": 0,
+  "parental_guardian_mode": 1,
+  "sync_duoshan": 0,
+  "block_urge": 0,
+  "im_inner_push": 1,
+  "download_prompt": 0,
+  "im_push": 1,
+  "allow_sell_data": 1,
+  "is_password_set": 0,
+  "is_minor": false,
+  "screen_time_management_self": 0,
+  "chat_setting_open_everyone": true,
+  "live_inner_push": 1,
+  "teen_mode_self": 0,
+  "shake_camera": 0,
+  "teen_mode": 0,
+  "comment_setting_enable": 0,
+  "comment_filter_status": 0,
+  "follow_push": 1,
+  "screen_time_management": 0,
+  "parental_guardian_entrance": 1,
+  "chat_set": 1,
+  "following_follower_permission": 0,
+  "react": 0,
+  "live_push": 1,
+  "follow_new_story_push": 1,
+  "duet": 0,
+  "settings_version": "{\"version_code\": \"920\"}",
+  "favorite_permission": 0,
+  "sync_toast": 0
+}
+
+
+/*
+
+There was an error connecting to https://aweme-swan-hl.snssdk.com/aweme/v3/newyear/heartbeat/?os_api=23&device_type=SM919&ssmix=a&manifest_version_code=920&dpi=560&uuid=99000718043819&app_name=aweme&version_name=9.2.0&ts=1577776287&app_type=normal&ac=wifi&update_version_code=9202&channel=smartisan&_rticket=1577776287736&device_platform=android&iid=96709057536&version_code=920&cdid=a36df733-a88f-4d7a-91d2-0a07408527e4&openudid=a6897d55dcbc378c&device_id=37601411417&resolution=1440*2560&os_version=6.0.1&language=zh&device_brand=SMARTISAN&aid=1128&mcc_mnc=46011.
+
+Request sent 554 bytes of Cookie data:
+
+
+d_ticket=9b6b6cfbf7f204fc17d8259ba2e5797440c16; 
+odin_tt=2d48ca0d3d15ae44ee0bb6604235cc7e8421f3e1f4b2f0845faa83516d6a357cfcad8bc17757d2116eba43b60d323835c7332fbb690d9955c788f3ed0c3e5931; 
+msh=L8hj_i1293z4FJcKMBnGNrB2u44; 
+sid_guard=5179ec56071e47acb8bfb32d349009e9%7C1577586777%7C5184000%7CThu%2C+27-Feb-2020+02%3A32%3A57+GMT; uid_tt=87b39b16f39772046d5ef593cad8abfc; 
+sid_tt=5179ec56071e47acb8bfb32d349009e9; sessionid=5179ec56071e47acb8bfb32d349009e9; 
+_ga=GA1.3.558464883.1577587026; install_id=96709057536; 
+ttreq=1$2adf75964ce2638d74fc19feb9a12b29b5f9b88f
+
+
+
+
+HTTP/1.1 200 OK
+Server: Tengine
+Content-Type: application/json
+Connection: keep-alive
+Date: Tue, 31 Dec 2019 06:55:35 GMT
+Vary: Accept-Encoding
+bd-tt-error-code: 0
+tt_stable: 1
+x_tt_logid: 201912311455340101290331692A229E34
+x-tt-logid: 201912311455340101290331692A229E34
+tt-idc-switch: 10000@20191226009
+Access-Control-Expose-Headers: tt-idc-switch
+server-timing: inner; dur=48
+x-tt-trace-host: 011b418d425c0c77a417dd4e48f8d9b8bbad8fc46e74af55fc151b86e98b19cb21daf1a40570c8647ece57ce400bf59c844aa765f3335b1a3dae6b3a154a3962942a9d3bf4bae4afd58efcadff4ba31b1f
+x-tt-trace-tag: id=00;cdn-cache=miss
+x-tt-trace-id: 00-5abd075a098c1380159b78826b350468-5abd075a098c1380-01
+Vary: Accept-Encoding
+Via: cache20.cn1615[86,0]
+Timing-Allow-Origin: *
+EagleId: 1b163a2815777753349458376e
+Content-Length: 1152
+
+{"comment": 0, "log_pb": {"impr_id": "201912311455340101290331692A229E34"}, "digg_push": 1, "comment_offensive_filter": 0, "extra": {"logid": "201912311455340101290331692A229E34", "now": 1577775335015, "fatal_item_ids": []}, "status_code": 0, "story_interaction_push": 1, "minor_control_type": 1, "enable_pre_upload": -1, "follow_new_video_push": 1, "story_view_permission": 0, "mention_push": 1, "comment_push": 1, "recommend_video_push": 1, "story_reply_permission": 0, "parental_guardian_mode": 1, "sync_duoshan": 0, "block_urge": 0, "im_inner_push": 1, "download_prompt": 0, "im_push": 1, "allow_sell_data": 1, "is_password_set": 0, "is_minor": false, "screen_time_management_self": 0, "chat_setting_open_everyone": true, "live_inner_push": 1, "teen_mode_self": 0, "shake_camera": 0, "teen_mode": 0, "comment_setting_enable": 0, "comment_filter_status": 0, "follow_push": 1, "screen_time_management": 0, "parental_guardian_entrance": 1, "chat_set": 1, "following_follower_permission": 0, "react": 0, "live_push": 1, "follow_new_story_push": 1, "duet": 0, "settings_version": "{\"version_code\": \"920\"}", "favorite_permission": 0, "sync_toast": 0}
+
+
+Host: aweme-swan-hl.snssdk.com
+Connection: keep-alive
+Cookie: d_ticket=9b6b6cfbf7f204fc17d8259ba2e5797440c16; odin_tt=2d48ca0d3d15ae44ee0bb6604235cc7e8421f3e1f4b2f0845faa83516d6a357cfcad8bc17757d2116eba43b60d323835c7332fbb690d9955c788f3ed0c3e5931; msh=L8hj_i1293z4FJcKMBnGNrB2u44; sid_guard=5179ec56071e47acb8bfb32d349009e9%7C1577586777%7C5184000%7CThu%2C+27-Feb-2020+02%3A32%3A57+GMT; uid_tt=87b39b16f39772046d5ef593cad8abfc; sid_tt=5179ec56071e47acb8bfb32d349009e9; sessionid=5179ec56071e47acb8bfb32d349009e9; install_id=96709057536; ttreq=1$2adf75964ce2638d74fc19feb9a12b29b5f9b88f
+X-SS-REQ-TICKET: 1577776287734
+X-Tt-Token: 005179ec56071e47acb8bfb32d349009e9bee3c09588554d74de1ab5cce48048bb670339a30a528279d3a5a87b3b640e5d5e
+sdk-version: 1
+X-SS-DP: 1128
+x-tt-trace-id: 00-5acb916f098c13801593c63a6af10468-5acb916f098c1380-01
+User-Agent: com.ss.android.ugc.aweme/920 (Linux; U; Android 6.0.1; zh_CN; SM919; Build/MXB48T; Cronet/TTNetVersion:4df3ca9d 2019-11-25)
+Accept-Encoding: gzip, deflate, br
+X-Gorgon: 0401c0e90000e370aafc5ea5939f4b06d67c5e6c2718c522c834
+X-Khronos: 1577776287
+
+https://aweme-swan-hl.snssdk.com/aweme/v3/newyear/heartbeat/?os_api=23&device_type=SM919&ssmix=a&manifest_version_code=920&dpi=560&uuid=99000718043819&app_name=aweme&version_name=9.2.0&ts=1577776287&app_type=normal&ac=wifi&update_version_code=9202&channel=smartisan&_rticket=1577776287736&device_platform=android&iid=96709057536&version_code=920&cdid=a36df733-a88f-4d7a-91d2-0a07408527e4&openudid=a6897d55dcbc378c&device_id=37601411417&resolution=1440*2560&os_version=6.0.1&language=zh&device_brand=SMARTISAN&aid=1128&mcc_mnc=46011 HTTP/1.1
+
+
+
+https://aweme-swan-hl.snssdk.com/aweme/v3/newyear/heartbeat/?os_api=23&device_type=SM919&ssmix=a&manifest_version_code=920&dpi=560&uuid=99000718043819&app_name=aweme&version_name=9.2.0&ts=1577776287&app_type=normal&ac=wifi&update_version_code=9202&channel=smartisan&_rticket=1577776287736&device_platform=android&iid=96709057536&version_code=920&cdid=a36df733-a88f-4d7a-91d2-0a07408527e4&openudid=a6897d55dcbc378c&device_id=37601411417&resolution=1440*2560&os_version=6.0.1&language=zh&device_brand=SMARTISAN&aid=1128&mcc_mnc=46011
+
+aweme-swan-hl.snssdk.com
+
+GET https://aweme-swan-hl.snssdk.com/aweme/v3/newyear/heartbeat/?os_api=23&device_type=SM919&ssmix=a&manifest_version_code=920&dpi=560&uuid=99000718043819&app_name=aweme&version_name=9.2.0&ts=1577776287&app_type=normal&ac=wifi&update_version_code=9202&channel=smartisan&_rticket=1577776287736&device_platform=android&iid=96709057536&version_code=920&cdid=a36df733-a88f-4d7a-91d2-0a07408527e4&openudid=a6897d55dcbc378c&device_id=37601411417&resolution=1440*2560&os_version=6.0.1&language=zh&device_brand=SMARTISAN&aid=1128&mcc_mnc=46011
+200 OK (application/json)
+
+data:application/json;base64,eyJsb2dfcGIiOnsiaW1wcl9pZCI6IjIwMTkxMjMxMTUxMDMxMDEwMTQ0MDUwMTYzMTMxNTJBQ0IifSwiY29uZmlnX3ZlcnNpb25faWQiOjMwNCwiemlwX2ZpbGVfcGF0aCI6WyJodHRwczovL3NmMS10dGNkbi10b3MucHN0YXRwLmNvbS9vYmovdHRmZS9hd2VtZS9uZXd5ZWFyL3N0YWdlMl8xNTc2MTU4MTk4MjA2LnppcCIsImh0dHBzOi8vc2YzLXR0Y2RuLXRvcy5wc3RhdHAuY29tL29iai90dGZlL2F3ZW1lL25ld3llYXIvc3RhZ2UyXzE1NzYxNTgxOTgyMDYuemlwIiwiaHR0cHM6Ly9zZjYtdHRjZG4tdG9zLnBzdGF0cC5jb20vb2JqL3R0ZmUvYXdlbWUvbmV3eWVhci9zdGFnZTJfMTU3NjE1ODE5ODIwNi56aXAiXSwiaW9zX3dpc2hfYWN0aXZpdHlfdXJsIjoiaHR0cHM6Ly9zMy5ieXRlY2RuLmNuL2F3ZW1lL2FjdGl2aXR5L2RvdXlpbl9hY3Rpdml0eS95dWFuZGFuL3dpc2hfY2FyZC9pbmRleC5odG1sP2hpZGVfbmF2X2Jhcj0xJmhpZGVfc3RhdHVzX2Jhcj0wJmRpc2FibGVCb3VuY2VzPTEmc3RhdHVzX2Jhcl9jb2xvcj0wMDAmaGlkZV9sb2FkaW5nPTEmbG9hZGluZ19iZ2NvbG9yPWY2MmY1OSZ1c2Vfd2t3ZWJ2aWV3PTEiLCJhbmRyb2lkX3dpc2hfYWN0aXZpdHlfdXJsIjoiaHR0cHM6Ly9zMy5ieXRlY2RuLmNuL2F3ZW1lL2FjdGl2aXR5L2RvdXlpbl9hY3Rpdml0eS95dWFuZGFuL3dpc2hfY2FyZC9pbmRleC5odG1sP2hpZGVfbmF2X2Jhcj0xJmhpZGVfc3RhdHVzX2Jhcj0wJmRpc2FibGVCb3VuY2VzPTEmc3RhdHVzX2Jhcl9jb2xvcj0wMDAmaGlkZV9sb2FkaW5nPTEmbG9hZGluZ19iZ2NvbG9yPWY2MmY1OSZ1c2Vfd2t3ZWJ2aWV3PTEiLCJleHRyYSI6eyJub3ciOjE1Nzc3NzYyMzEwMDAsImZhdGFsX2l0ZW1faWRzIjpbXSwibG9naWQiOiIyMDE5MTIzMTE1MTAzMTAxMDE0NDA1MDE2MzEzMTUyQUNCIn0sInN0YXR1c19tc2ciOiIiLCJoZWFydGJlYXRfaW50ZXJ2YWwiOjYwLCJpb3NfYWN0aXZpdHlfdXJsIjoiaHR0cHM6Ly9zMy5ieXRlY2RuLmNuL2F3ZW1lL2FjdGl2aXR5L2RvdXlpbl9hY3Rpdml0eS95dWFuZGFuL3dpc2hfdG9vbHMvaW5kZXguaHRtbD9oaWRlX25hdl9iYXI9MSZoaWRlX3N0YXR1c19iYXI9MCZkaXNhYmxlQm91bmNlcz0xJnN0YXR1c19iYXJfY29sb3I9MDAwJmhpZGVfbG9hZGluZz0xJmxvYWRpbmdfYmdjb2xvcj1mNjJmNTkmdXNlX3drd2Vidmlldz0xIiwiYnV0dG9uX2Rpc3BsYXlfc3RyYXRlZ3kiOnRydWUsInppcF9maWxlX21kNSI6IjU3ZmU3MTM0OTA3NjcyZjk0OWVlODcwZjc0NjJkMDgxIiwic2hhcmVfZm9yYmlkZGVuX3N0cmF0ZWd5IjoxLCJhbmRyb2lkX2FjdGl2aXR5X3VybCI6Imh0dHBzOi8vczMuYnl0ZWNkbi5jbi9hd2VtZS9hY3Rpdml0eS9kb3V5aW5fYWN0aXZpdHkveXVhbmRhbi93aXNoX3Rvb2xzL2luZGV4Lmh0bWw/aGlkZV9uYXZfYmFyPTEmaGlkZV9zdGF0dXNfYmFyPTAmZGlzYWJsZUJvdW5jZXM9MSZzdGF0dXNfYmFyX2NvbG9yPTAwMCZoaWRlX2xvYWRpbmc9MSZsb2FkaW5nX2JnY29sb3I9ZjYyZjU5JnVzZV93a3dlYnZpZXc9MSIsInN0YXR1c19jb2RlIjowLCJ3YWxsZXRfdXJsIjoiaHR0cHM6Ly9hd2VtZS5zbnNzZGsuY29tL2x1Y2t5Y2F0L2F3ZW1lX3dhbGxldC9wYWdlL3Byb2ZpdHMvP2hpZGVfbmF2X2Jhcj0xJmFwcGVuZF9jb21tb25fcGFyYW1zPTEmc2hvdWxkX2Z1bGxfc2NyZWVuPTEmZGlzYWJsZUJvdW5jZXM9MSJ9Cg==
+
+{"ios_wish_activity_url":"https://s3.bytecdn.cn/aweme/activity/douyin_activity/yuandan/wish_card/index.html?hide_nav_bar=1&hide_status_bar=0&disableBounces=1&status_bar_color=000&hide_loading=1&loading_bgcolor=f62f59&use_wkwebview=1","wallet_url":"https://aweme.snssdk.com/luckycat/aweme_wallet/page/profits/?hide_nav_bar=1&append_common_params=1&should_full_screen=1&disableBounces=1","share_forbidden_strategy":1,"config_version_id":304,"button_display_strategy":true,"zip_file_md5":"57fe7134907672f949ee870f7462d081","android_activity_url":"https://s3.bytecdn.cn/aweme/activity/douyin_activity/yuandan/wish_tools/index.html?hide_nav_bar=1&hide_status_bar=0&disableBounces=1&status_bar_color=000&hide_loading=1&loading_bgcolor=f62f59&use_wkwebview=1","android_wish_activity_url":"https://s3.bytecdn.cn/aweme/activity/douyin_activity/yuandan/wish_card/index.html?hide_nav_bar=1&hide_status_bar=0&disableBounces=1&status_bar_color=000&hide_loading=1&loading_bgcolor=f62f59&use_wkwebview=1","log_pb":{"impr_id":"2019123115343101002203610319150C3A"},"heartbeat_interval":60,"ios_activity_url":"https://s3.bytecdn.cn/aweme/activity/douyin_activity/yuandan/wish_tools/index.html?hide_nav_bar=1&hide_status_bar=0&disableBounces=1&status_bar_color=000&hide_loading=1&loading_bgcolor=f62f59&use_wkwebview=1","zip_file_path":["https://sf1-ttcdn-tos.pstatp.com/obj/ttfe/aweme/newyear/stage2_1576158198206.zip","https://sf3-ttcdn-tos.pstatp.com/obj/ttfe/aweme/newyear/stage2_1576158198206.zip","https://sf6-ttcdn-tos.pstatp.com/obj/ttfe/aweme/newyear/stage2_1576158198206.zip"],"status_code":0,"status_msg":"","extra":{"now":1577777671000,"fatal_item_ids":[],"logid":"2019123115343101002203610319150C3A"}}
+*/

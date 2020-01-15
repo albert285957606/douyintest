@@ -1,0 +1,166 @@
+{
+  "server_time": 1577785102,
+  "magic_tag": "ss_app_log",
+  "config": {
+    "bav_log_collect": false,
+    "bav_ab_config": false,
+    "bav_monitor_rate": 0,
+    "allow_keep_alive": true,
+    "allow_push_list": [],
+    "allow_push_service": 0,
+    "batch_event_interval": 60,
+    "fingerprint_codes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "hp_stat_sampling_ratio": {
+      "/data/get_item_summary/": 0.00004,
+      "default": 0.01
+    },
+    "http_monitor_port": 1024,
+    "image_error_codes": [
+      2,
+      3,
+      4,
+      6,
+      8,
+      12,
+      13,
+      14,
+      15
+    ],
+    "image_error_report": {
+      "p.pstatp.com": {
+        "net_error_interval": 30,
+        "net_report_count": 5,
+        "net_silent_period": 60,
+        "srv_error_interval": 10,
+        "srv_report_count": 3,
+        "srv_silent_period": 300
+      },
+      "p0.pstatp.com": {
+        "net_error_interval": 10,
+        "net_report_count": 10,
+        "net_silent_period": 60,
+        "srv_error_interval": 10,
+        "srv_report_count": 3,
+        "srv_silent_period": 300
+      },
+      "p1.pstatp.com": {
+        "net_error_interval": 10,
+        "net_report_count": 10,
+        "net_silent_period": 60,
+        "srv_error_interval": 10,
+        "srv_report_count": 3,
+        "srv_silent_period": 300
+      },
+      "p10.pstatp.com": {
+        "net_error_interval": 10,
+        "net_report_count": 10,
+        "net_silent_period": 60,
+        "srv_error_interval": 10,
+        "srv_report_count": 3,
+        "srv_silent_period": 300
+      },
+      "p11.pstatp.com": {
+        "net_error_interval": 10,
+        "net_report_count": 10,
+        "net_silent_period": 60,
+        "srv_error_interval": 10,
+        "srv_report_count": 3,
+        "srv_silent_period": 300
+      },
+      "p2.pstatp.com": {
+        "net_error_interval": 10,
+        "net_report_count": 10,
+        "net_silent_period": 60,
+        "srv_error_interval": 10,
+        "srv_report_count": 3,
+        "srv_silent_period": 300
+      },
+      "p3.pstatp.com": {
+        "net_error_interval": 10,
+        "net_report_count": 10,
+        "net_silent_period": 60,
+        "srv_error_interval": 10,
+        "srv_report_count": 3,
+        "srv_silent_period": 300
+      },
+      "p4.pstatp.com": {
+        "net_error_interval": 10,
+        "net_report_count": 10,
+        "net_silent_period": 60,
+        "srv_error_interval": 10,
+        "srv_report_count": 3,
+        "srv_silent_period": 300
+      },
+      "p5.pstatp.com": {
+        "net_error_interval": 10,
+        "net_report_count": 10,
+        "net_silent_period": 60,
+        "srv_error_interval": 10,
+        "srv_report_count": 3,
+        "srv_silent_period": 300
+      },
+      "p6.pstatp.com": {
+        "net_error_interval": 10,
+        "net_report_count": 10,
+        "net_silent_period": 60,
+        "srv_error_interval": 10,
+        "srv_report_count": 3,
+        "srv_silent_period": 300
+      },
+      "p7.pstatp.com": {
+        "net_error_interval": 10,
+        "net_report_count": 10,
+        "net_silent_period": 60,
+        "srv_error_interval": 10,
+        "srv_report_count": 3,
+        "srv_silent_period": 300
+      },
+      "p8.pstatp.com": {
+        "net_error_interval": 10,
+        "net_report_count": 10,
+        "net_silent_period": 60,
+        "srv_error_interval": 10,
+        "srv_report_count": 3,
+        "srv_silent_period": 300
+      },
+      "p9.pstatp.com": {
+        "net_error_interval": 10,
+        "net_report_count": 10,
+        "net_silent_period": 60,
+        "srv_error_interval": 10,
+        "srv_report_count": 3,
+        "srv_silent_period": 300
+      }
+    },
+    "image_sampling_ratio": {
+      "p.pstatp.com": 0.01,
+      "p0.pstatp.com": 0.01,
+      "p1.pstatp.com": 0.01,
+      "p10.pstatp.com": 0.5,
+      "p11.pstatp.com": 0.1,
+      "p2.pstatp.com": 0.01,
+      "p3.pstatp.com": 0.01,
+      "p4.pstatp.com": 0.1,
+      "p5.pstatp.com": 0.1,
+      "p5a.pstatp.com": 0.1,
+      "p6.pstatp.com": 0.1,
+      "p7.pstatp.com": 0.1,
+      "p8.pstatp.com": 0.2,
+      "p9.pstatp.com": 0.1
+    },
+    "real_time_events": [
+      "realtime_click",
+      "realtime_report"
+    ],
+    "send_launch_timely": 1,
+    "send_policy": "start",
+    "session_interval": 30
+  }
+}

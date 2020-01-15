@@ -1,0 +1,54 @@
+{
+  "log_pb": {
+    "impr_id": "2019123115103101014405016313152ACB"
+  },
+  "config_version_id": 304,
+  "zip_file_path": [
+    "https://sf1-ttcdn-tos.pstatp.com/obj/ttfe/aweme/newyear/stage2_1576158198206.zip",
+    "https://sf3-ttcdn-tos.pstatp.com/obj/ttfe/aweme/newyear/stage2_1576158198206.zip",
+    "https://sf6-ttcdn-tos.pstatp.com/obj/ttfe/aweme/newyear/stage2_1576158198206.zip"
+  ],
+  "ios_wish_activity_url": "https://s3.bytecdn.cn/aweme/activity/douyin_activity/yuandan/wish_card/index.html?hide_nav_bar=1&hide_status_bar=0&disableBounces=1&status_bar_color=000&hide_loading=1&loading_bgcolor=f62f59&use_wkwebview=1",
+  "android_wish_activity_url": "https://s3.bytecdn.cn/aweme/activity/douyin_activity/yuandan/wish_card/index.html?hide_nav_bar=1&hide_status_bar=0&disableBounces=1&status_bar_color=000&hide_loading=1&loading_bgcolor=f62f59&use_wkwebview=1",
+  "extra": {
+    "now": 1577776231000,
+    "fatal_item_ids": [],
+    "logid": "2019123115103101014405016313152ACB"
+  },
+  "status_msg": "",
+  "heartbeat_interval": 60,
+  "ios_activity_url": "https://s3.bytecdn.cn/aweme/activity/douyin_activity/yuandan/wish_tools/index.html?hide_nav_bar=1&hide_status_bar=0&disableBounces=1&status_bar_color=000&hide_loading=1&loading_bgcolor=f62f59&use_wkwebview=1",
+  "button_display_strategy": true,
+  "zip_file_md5": "57fe7134907672f949ee870f7462d081",
+  "share_forbidden_strategy": 1,
+  "android_activity_url": "https://s3.bytecdn.cn/aweme/activity/douyin_activity/yuandan/wish_tools/index.html?hide_nav_bar=1&hide_status_bar=0&disableBounces=1&status_bar_color=000&hide_loading=1&loading_bgcolor=f62f59&use_wkwebview=1",
+  "status_code": 0,
+  "wallet_url": "https://aweme.snssdk.com/luckycat/aweme_wallet/page/profits/?hide_nav_bar=1&append_common_params=1&should_full_screen=1&disableBounces=1"
+}
+{
+  "ios_wish_activity_url": "https://s3.bytecdn.cn/aweme/activity/douyin_activity/yuandan/wish_card/index.html?hide_nav_bar=1&hide_status_bar=0&disableBounces=1&status_bar_color=000&hide_loading=1&loading_bgcolor=f62f59&use_wkwebview=1",
+  "wallet_url": "https://aweme.snssdk.com/luckycat/aweme_wallet/page/profits/?hide_nav_bar=1&append_common_params=1&should_full_screen=1&disableBounces=1",
+  "share_forbidden_strategy": 1,
+  "config_version_id": 304,
+  "button_display_strategy": true,
+  "zip_file_md5": "57fe7134907672f949ee870f7462d081",
+  "android_activity_url": "https://s3.bytecdn.cn/aweme/activity/douyin_activity/yuandan/wish_tools/index.html?hide_nav_bar=1&hide_status_bar=0&disableBounces=1&status_bar_color=000&hide_loading=1&loading_bgcolor=f62f59&use_wkwebview=1",
+  "android_wish_activity_url": "https://s3.bytecdn.cn/aweme/activity/douyin_activity/yuandan/wish_card/index.html?hide_nav_bar=1&hide_status_bar=0&disableBounces=1&status_bar_color=000&hide_loading=1&loading_bgcolor=f62f59&use_wkwebview=1",
+  "log_pb": {
+    "impr_id": "2019123115343101002203610319150C3A"
+  },
+  "heartbeat_interval": 60,
+  "ios_activity_url": "https://s3.bytecdn.cn/aweme/activity/douyin_activity/yuandan/wish_tools/index.html?hide_nav_bar=1&hide_status_bar=0&disableBounces=1&status_bar_color=000&hide_loading=1&loading_bgcolor=f62f59&use_wkwebview=1",
+  "zip_file_path": [
+    "https://sf1-ttcdn-tos.pstatp.com/obj/ttfe/aweme/newyear/stage2_1576158198206.zip",
+    "https://sf3-ttcdn-tos.pstatp.com/obj/ttfe/aweme/newyear/stage2_1576158198206.zip",
+    "https://sf6-ttcdn-tos.pstatp.com/obj/ttfe/aweme/newyear/stage2_1576158198206.zip"
+  ],
+  "status_code": 0,
+  "status_msg": "",
+  "extra": {
+    "now": 1577777671000,
+    "fatal_item_ids": [],
+    "logid": "2019123115343101002203610319150C3A"
+  }
+}
