@@ -1,0 +1,302 @@
+
+
+
+
+
+
+
+
+
+
+ 
+
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="x-ua-compatible" content="IE=edge" />
+<meta name="description" content="cas" />
+<title>统一身份认证系统 - 用户登录</title>
+<link type="text/css" rel="stylesheet" href="/cas/plugins/bootstrap-3.3.5-dist/css/bootstrap.css;jsessionid=1C0112E189052D80A8AE2BB1C0B50476" >
+<link type="text/css" rel="stylesheet" href="/cas/css/images/comm_style.css;jsessionid=1C0112E189052D80A8AE2BB1C0B50476">
+<link type="text/css" rel="stylesheet" href='/cas/css/reset.css;jsessionid=1C0112E189052D80A8AE2BB1C0B50476'>
+<link type="text/css" rel="stylesheet" href='/cas/css/casLoginView.css;jsessionid=1C0112E189052D80A8AE2BB1C0B50476'>
+<link type="text/css" rel="stylesheet" href="/cas/css/images/style.css;jsessionid=1C0112E189052D80A8AE2BB1C0B50476" >
+<script type="text/javascript" src="/cas/js/jquery-1.9.1.js;jsessionid=1C0112E189052D80A8AE2BB1C0B50476"></script>	
+<script type="text/javascript" src='/cas/js/md5.js;jsessionid=1C0112E189052D80A8AE2BB1C0B50476'></script>
+<script type="text/javascript" src="/cas/js/jquery.kinMaxShow-1.1.min.js;jsessionid=1C0112E189052D80A8AE2BB1C0B50476"></script>
+<script type="text/javascript" src="/cas/plugins/bootstrap-3.3.5-dist/js/bootstrap.min.js;jsessionid=1C0112E189052D80A8AE2BB1C0B50476"></script>
+<style>
+* {
+	box-sizing: content-box
+}
+.modal-header {
+	background: #1173c5;
+	color: #fff;
+}
+.modal-header .close {
+	color: #fff;
+}
+.modal-dialog {
+	margin-top: 170px;
+}
+</style>
+
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//39.106.20.19:8080/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '7']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+
+
+</head>
+<script type="text/javascript">
+
+	 $(document).ready(function() {
+		 
+		  if (!placeholderSupport()) {
+			  
+			$('input[placeholder]').each(function() {
+				
+				var that = $(this);
+				var placeholder = that.attr('placeholder');
+				
+			 	if (that.val() === "") {
+					that.hide();
+					that.next().show().val(placeholder).addClass('login-placeholder');
+				} else {
+					that.hide();
+					that.next().show().val(that.val());
+				}
+				
+				that.next().focus(function() {
+					if (that.next().val() == placeholder || that.next().val() == that.val()) {
+						that.next().hide().val('').removeClass('login-placeholder');
+						that.show().val('').focus();
+					}
+				});
+				
+				that.blur(function() {
+					if (that.val() == '') {
+						that.hide();
+						that.next().val(placeholder).show().addClass('login-placeholder');
+					}
+				});
+				
+		   });
+			
+		} 
+		 
+		 
+	    // input选框兼容性 宽度问题
+		if (navigator.appName == "Microsoft Internet Explorer" 
+				&& navigator.appVersion.split(";")[1].replace(/[ ]/g, "") == "MSIE6.0") {
+			document.getElementById("username").style.width = "211px";
+			document.getElementById("password").style.width = "211px";
+		} else if (navigator.appName == "Microsoft Internet Explorer"
+				&& navigator.appVersion.split(";")[1].replace(/[ ]/g, "") == "MSIE7.0") {
+			document.getElementById("username").style.width = "211px";
+			document.getElementById("password").style.width = "211px";
+		} else if (navigator.appName == "Microsoft Internet Explorer"
+				&& navigator.appVersion.split(";")[1].replace(/[ ]/g, "") == "MSIE8.0") {
+			document.getElementById("username").style.width = "211px";
+			document.getElementById("password").style.width = "211px";
+		} else if (navigator.appName == "Microsoft Internet Explorer"
+				&& navigator.appVersion.split(";")[1].replace(/[ ]/g, "") == "MSIE9.0") {
+			document.getElementById("username").style.width = "211px";
+			document.getElementById("password").style.width = "211px";
+		}else if (navigator.appName == "Microsoft Internet Explorer"
+			&& navigator.appVersion.split(";")[1].replace(/[ ]/g, "") == "MSIE10.0") {
+			document.getElementById("username").style.width = "211px";
+			document.getElementById("password").style.width = "211px";
+		}
+		 
+		// 取消model弹框
+	 	//$('.bs-example-modal-lg').modal({})
+	 	
+	 	$('#username').focus();
+	 	
+	});
+function placeholderSupport() {
+    return 'placeholder' in document.createElement('input');
+}
+function checkInput() {
+	var username = document.getElementById("username");
+	var password = document.getElementById("password");
+	if (username.value == "") {
+		alert("请输入登录名！");
+		return false;
+	}
+	if (password.value == "") {
+		alert("请输入密码！");
+		return false;
+	}
+	return true;
+}
+</script>
+<body>
+
+<div class="top"></div>
+<!--时间天气插件-->
+<div class="logobox">
+	<div class="logo"></div>
+</div>
+<!--时间天气插件-->
+<div id="kinMaxShow">
+	<div>
+		<img src="/cas/css/images/001_12.png;jsessionid=1C0112E189052D80A8AE2BB1C0B50476" />
+	</div>
+</div>
+	
+<div class="bj_box">
+	<div class="bj_wrap">
+		<div class="login_bj">
+			<div class="login-head-b"></div>
+			<form id="fm1" class="fm-v clearfix" action="/cas/login;jsessionid=1C0112E189052D80A8AE2BB1C0B50476?service=http%3A%2F%2F59.172.226.5%3A80%2Feams%2Fsso%2Flogin.action%3FtargetUrl%3D%7Bbase64%7DaHR0cDovLzU5LjE3Mi4yMjYuNTo4MC9lYW1zL2hvbWUuYWN0aW9u" method="post">
+				<div class="login-body-b">
+				
+					<table class="login_table" style="cellpadding: 0; cellspacing: 0">
+					
+						<tr>
+							<td colspan="2">
+								<input type="text" id="username" name="username"  
+									class="login_input login_user" placeholder="教工卡号/学号" value="" />
+								<input type="text" class="login_input login_user" style="display: none;" />
+					    	</td>
+						</tr>
+						
+						<tr>
+							<td colspan="2">
+								<input type="password" id="password" name="password" 
+									class="login_input login_password" placeholder="密码" />
+								<input type="text" class="login_input login_password" style="display: none;" />
+							</td> 
+						</tr>
+						
+						<tr>
+							<td colspan="2">
+								<input type="submit" class="login" value="登 录"
+									onclick="javascript:return checkInput();"/>
+							</td>
+						</tr>
+						
+					</table>
+					
+					<input type="hidden" name="lt" value="_c23492159-67D7-989D-1575-48DC83C2F965_kAEC651EF-9800-798E-F3E8-F4B50EC00703" />
+					<input type="hidden" name="_eventId" value="submit" />
+					
+				</div>
+				<div class="login-footer-b">
+					
+					<a href="http://uia.whxy.edu.cn/uid/forget">忘记密码？</a></br>
+					<span class="errorInfo"> 
+						
+					     
+					</span>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Button 部分 -->
+
+	<table class="link_table" style="cellpadding: 0; cellspacing: 0">
+		<tr>
+			<td class="link_table_title"><img
+				src="/cas/css/images/link_rz_37.png;jsessionid=1C0112E189052D80A8AE2BB1C0B50476">&nbsp;&nbsp;认证说明，轻松上手</td>
+			<td class="link_table_title"><img
+				src="/cas/css/images/link_dl.png;jsessionid=1C0112E189052D80A8AE2BB1C0B50476">&nbsp;&nbsp;登录问题，迎刃而解</td>
+			<td class="link_table_title"><img
+				src="/cas/css/images/link_lj.png;jsessionid=1C0112E189052D80A8AE2BB1C0B50476">&nbsp;&nbsp;快速通道，友情链接</td>
+	<!--		<td class="link_table_title"><img
+				src="/cas/css/images/link_rz_37.png;jsessionid=1C0112E189052D80A8AE2BB1C0B50476">&nbsp;&nbsp;服务电话</td>-->
+		</tr>
+		<tr>
+			<td>
+				<ul class="link_table_ul">
+					<li class="r-pa"><a href="pages/instruction.html" target="_blank">使用说明</a></li>
+					<li><a href="pages/safety.html" target="_blank">隐私安全</a></li>
+					<li class="r-li"><a href="pages/integrationSystem.html" target="_blank">集成系统</a></li>
+				</ul>
+			</td>
+			<td>
+				<ul class="link_table_ul">
+					<li class="r-pa"><a href="pages/findCode.html" target="_blank">密码找回</a></li>
+					<li class="r-li"><a href="pages/commonQues.html" target="_blank">常见问题</a></li>
+				</ul>
+			</td>
+			<td>
+				<ul class="link_table_ul">
+					<li class="r-pa"><a href="http://www.whxy.edu.cn">校园首页</a></li>
+					<li><a href="http://www.whxy.edu.cn/syxw/list-1.aspx">校园新闻</a></li>
+					<li class="r-li"><a href="http://mail.whxy.edu.cn/">邮件系统</a></li>
+				</ul>
+			</td>
+		<!--	<td>
+				<ul class="link_table_ul">
+					<li class="r-li"><a>021-51719228</a></li>
+				</ul>-->
+			</td>  
+		</tr>
+	</table>
+	
+	
+	<div class="login_foot_box">
+		<div class="login_foot">武汉学院 版权所有</div>
+	</div>
+	
+	
+	<!-- 模态弹框 -->
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title">关于数字化校园综合服务平台维护的通知</h4>
+				</div>
+				<div class="modal-body" style="height: 300px; overflow-y: scroll">
+					<p class=MsoNormal align=left style='margin-top: 11.25pt; mso-margin-bottom-alt: auto; text-align: left; line-height: 18pt; mso-pagination: widow-orphan; background: white'>
+						<span style='font-size: 10pt; font-family: "微软雅黑", sans-serif; mso-bidi-font-family: 宋体; color: black; mso-font-kerning: 0pt'>广大师生：<span lang=EN-US> <o:p></o:p>
+						</span></span>
+					</p>
+					<p class=MsoNormal align=left style='margin-top: 11.25pt; mso-margin-bottom-alt: auto; text-align: left; text-indent: 24.0pt; line-height: 18pt; mso-pagination: widow-orphan; background: white'>
+						<span style='font-size: 10pt; font-family: "微软雅黑", sans-serif; mso-bidi-font-family: 宋体; color: black; mso-font-kerning: 0pt'>现计划于本周四（2016年2月25日）下午13:00对数字化校园综合服务平台进行数据迁移维护，届时综合门户服务将暂停使用，预计18:00可恢复使用。  由此带来的不便，敬请谅解！<o:p></o:p>
+						</span>
+					</p>
+					<p class=MsoNormal align=right style='margin-top: 11.25pt; mso-margin-bottom-alt: auto; text-align: right; line-height: 18pt; mso-pagination: widow-orphan; background: white'>
+						<span style='font-size: 10pt; font-family: "微软雅黑", sans-serif; mso-bidi-font-family: 宋体; color: black; mso-font-kerning: 0pt'>数字化校园建设管理委员会办公室<span lang=EN-US> <o:p></o:p>
+						</span></span>
+					</p>
+					<p class=MsoNormal align=right style='margin-top: 11.25pt; mso-margin-bottom-alt: auto; text-align: right; line-height: 18pt; mso-pagination: widow-orphan; background: white'>
+						<span style='font-size: 10pt; font-family: "微软雅黑", sans-serif; mso-bidi-font-family: 宋体; color: black; mso-font-kerning: 0pt'>2016年2月25日<span lang=EN-US> <o:p></o:p>
+						</span></span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--[if lt IE 9]>
+<script type="text/javascript">
+
+if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE6.0" || 
+navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE7.0"){
+	location.href('../error/ie.html');
+}
+</script>
+<![endif]-->
+</body>
+</html>
